@@ -1,0 +1,244 @@
+.mama div{
+}
+.deti1{
+    width: 225px;
+    height: 200px;
+    background-color: cornsilk;
+    border: 2px solid black;
+    font-size: 20px;
+    text-align: center;
+    position: static;
+}
+.deti2{
+    width: 225px;
+    height: 200px;
+    background-color: cornsilk;
+    border: 2px solid black;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    left: 100px;
+}
+.deti3{
+    width: 225px;
+    height: 200px;
+    background-color: cornsilk;
+    border: 2px solid black;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+.deti4{
+    width: 225px;
+    height: 200px;
+    background-color: cornsilk;
+    border: 2px solid black;
+    font-size: 20px;
+    text-align: center;
+    position: fixed;
+    left: 300px;
+    top: 10px;
+}
+.deti5{
+    width: 225px;
+    height: 200px;
+    background-color: cornsilk;
+    border: 2px solid black;
+    font-size: 20px;
+    text-align: center;
+    position: static;
+    left: 50%;
+    top: 10px; 
+}
+.deti6{
+    width: 225px;
+    height: 200px;
+    background-color: cornsilk;
+    border: 2px solid black;
+    font-size: 20px;
+    text-align: center;
+    position: static;
+    left: 50%;
+    top: 10px; 
+}
+.deti7{
+    width: 225px;
+    height: 200px;
+    background-color: cornsilk;
+    border: 2px solid black;
+    font-size: 20px;
+    text-align: center;
+    position: static;
+    left: 50%;
+    top: 10px; 
+}
+.deti8{
+    width: 225px;
+    height: 200px;
+    background-color: cornsilk;
+    border: 2px solid black;
+    font-size: 20px;
+    text-align: center;
+    position: static;
+    left: 50%;
+    top: 10px; 
+}
+.deti9{
+    width: 225px;
+    height: 200px;
+    background-color: cornsilk;
+    border: 2px solid black;
+    font-size: 20px;
+    text-align: center;
+    position: static;
+    left: 50%;
+    top: 10px; 
+}
+.deti10{
+    width: 225px;
+    height: 200px;
+    background-color: cornsilk;
+    border: 2px solid black;
+    font-size: 20px;
+    text-align: center;
+    position: static;
+    left: 50%;
+    top: 10px; 
+}
+.deti11{
+    width: 225px;
+    height: 200px;
+    background-color: cornsilk;
+    border: 2px solid black;
+    font-size: 20px;
+    text-align: center;
+    position: sticky;
+    left: 600px;
+    top: 700px;
+}
+.deti12{
+    width: 225px;
+    height: 200px;
+    background-color: cornsilk;
+    border: 2px solid black;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    right: 100px;
+    bottom: 500px;
+}
+.deti13{
+    width: 225px;
+    height: 200px;
+    background-color: cornsilk;
+    border: 2px solid black;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    left: 100px;
+    top: 400px;
+}
+.pensil{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 90px;
+    height: 500px;
+    background-color: chocolate;
+    border-radius: 8px;
+    box-shadow: 1px -35px 60px -20px coral;
+}
+.p1{
+    position: absolute;
+    top: -143px;
+    right: 0;
+    width: 100%;
+    height: 160px;
+    background-color: rgb(109, 65, 8);
+    clip-path: polygon(50% 0%, 100% 91%, 100% 100%, 0% 100%, 0% 91%);
+}
+.w{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+.p2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 38%;
+    background-color: lightseagreen;
+    border-radius: 100px 100px 0 0;
+    animation: skew 5s infinite;
+}
+.p3{
+    position: absolute;
+    left: 28px;
+    top: 0;
+    height: 100%;
+    width: 38%;
+    background-color: lightseagreen;
+    border-radius: 100px 100px 0 0;
+    animation: skew 5s infinite;
+}
+.p4{
+    position: absolute;
+    left: 56px;
+    top: 0;
+    height: 100%;
+    width: 38%;
+    background-color: lightseagreen;
+    border-radius: 100px 100px 0 0;
+    animation: skew 5s infinite;
+}
+@keyframes skew{
+    0%{background-color: lightseagreen;}
+    25%{background-color: cyan;}
+    50%{background-color: darkorange;}
+    75%{background-color: deeppink;}
+    90%{background-color: lawngreen;}
+    100%{background-color: lightseagreen;}
+}
+.insta{
+    width: 450px;
+    height: 450px;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    right: 50px;
+    top: 400px;
+    border: none;
+    border-radius: 120px;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+.insta_box{
+    margin: 45px auto;
+    width: 310px;
+    height: 310px;
+    border: 30px solid white;
+    border-radius: 120px;
+}
+body{
+    background-color: thistle;
+}
+.insta_box2{
+    margin: 0px auto;
+    width: 140px;
+    height: 140px;
+    border: 35px solid white;
+    border-radius: 100%;
+}
+.insta_circle{
+    margin: 18px 0px 0px 230px;
+    width: 0px;
+    height: 0px;
+    border: 20px solid white;
+    border-radius: 100%;
+}
